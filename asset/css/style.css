@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { 
+    background: radial-gradient(circle, #000000, #113b72);
+    height: 100vh;
+}
+.titulo {
+    border: 1px;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    color: rgb(88, 174, 207);
+    box-shadow: 0 0 5px 5px #0e85a3;
+    border-radius: 16px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cuadro{
+    padding-top: 20px;
+    text-align: center;
+}
+.texto{
+    border: 3px;
+    flex: 1;
+    margin: 10px;
+}
+.resultado{
+    border: 3px;
+    flex: 1;
+    margin: 10px;
+    color: rgb(31, 205, 211);
+    
+}
+.cuadro1{
+    border-color: rgb(26, 92, 190);
+    border-width: 2px;
+    border-style: double; 
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px;
+    box-shadow: 0 0 5px 5px #0e85a3;
+    text-align: center;
+    border-radius: 16px;
+}
+.cuadro2{
+    border-color: rgb(26, 92, 190);
+    border-width: 2px;
+    border-style: double; 
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px;
+    box-shadow: 0 0 5px 5px #0e85a3;
+    text-align: center;
+    border-radius: 16px;
+    
+}
+.contenedor1{
+    width: 766px;
+    margin: auto;
+}
+.comtenedor2{
+    margin: auto;
+    width: 1300px;
+}
+textarea{
+    color: white;
+}
+main{
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0) ;
+	color: rgb(31, 205, 211);	
+	width: 49%;
+	text-align: center;
+}
+.desplazamiento{
+    color: rgb(31, 205, 211);
+    margin-bottom: 30px;
+}
+p{
+    color: rgb(31, 205, 211);
+}
